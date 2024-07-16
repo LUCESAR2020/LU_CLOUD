@@ -1,0 +1,21 @@
+CLASS zcl_lu_hello_world DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_LU_HELLO_WORLD IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+  OUT->write('OLA MUNDO').
+  ENDMETHOD.
+ENDCLASS.

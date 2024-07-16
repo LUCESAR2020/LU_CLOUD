@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_LU_TABLE_RAP'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_LU_TABLE_RAP'
+  }
+}
+define service ZUI_LU_TABLE_RAP_O4 provider contracts odata_v4_ui {
+  expose ZC_LU_TABLE_RAP as FLIGHT;
+}
